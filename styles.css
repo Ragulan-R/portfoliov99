@@ -963,3 +963,20 @@ a {
     margin-top: 66rem;
   }
 }
+@media screen and (max-width: 429px) {
+  .skills {
+    margin-top: 23rem;
+  }
+  .services {
+    margin-top: 53rem;
+  }
+  .services h1 {
+    font-size: 2.6rem;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  .skills h1 {
+    font-size: 2.6rem;
+  }
+}
