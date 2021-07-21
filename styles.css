@@ -598,7 +598,7 @@ a {
 @media screen and (max-width: 480px) {
   .skills {
     height: 100vh;
-    margin-top: 200px;
+    margin-top: 80rem;
   }
 
   .services {
@@ -608,6 +608,7 @@ a {
 
   .about {
     height: 100vh;
+    margin-top: 20rem;
   }
 
   .skills h1 {
@@ -960,7 +961,7 @@ a {
 
 @media screen and (max-width: 863px) {
   .footer__container {
-    margin-top: 66rem;
+    margin-top: 86rem;
   }
 }
 @media screen and (max-width: 429px) {
