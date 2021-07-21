@@ -420,6 +420,8 @@ a {
   justify-content: center;
   align-items: center;
   padding: 5rem 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   /* height: 100vh; */
 }
 
@@ -508,6 +510,8 @@ a {
   justify-content: center;
   align-items: center;
   padding: 5rem 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   /* height: 100vh;
   margin-top: 30rem; */
   /* margin-top: 30rem; */
@@ -519,7 +523,7 @@ a {
   flex-wrap: wrap;
   margin-bottom: 5rem;
   padding: 60px 40px 0;
-  max-width: 80%;
+  max-width: 60%;
   margin: 0 auto;
 }
 
@@ -664,6 +668,8 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   /* height: 100vh; */
   /* margin-top: 60rem; */
   padding: 5rem 0;
