@@ -1009,3 +1009,76 @@ a {
 /* .box {
   border: 10px solid black;
 } */
+
+/* iphone 8 */
+@media screen and (max-width: 414px) {
+  .main__content .intro {
+    font-size: 20px;
+    letter-spacing: -0.7px;
+    font-weight: 600;
+  }
+  .main__content .jobtitle {
+    padding: 20px 0 30px;
+    min-width: 90%;
+    margin: auto;
+    font-size: 45px;
+    letter-spacing: -3px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-image: url(https://media2.giphy.com/media/dAWZiSMbMvObDWP3aA/200w.gif?cid=82a1493byp37003a7qbmajj1l5tg7mcliwmw1twdt960cw2l&ct=g&rid=200w.gif);
+  }
+
+  .main__content .bio {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .about h1 {
+    font-size: 45px;
+  }
+
+  .about__text {
+    font-weight: 400;
+    font-size: 15px;
+    max-width: 60%;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .skills__text {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .skills__card h2 {
+    text-align: center;
+  }
+
+  .skills__card {
+    width: 70px;
+  }
+
+  .services h1 {
+    font-size: 45px;
+  }
+
+  .services__card h2 {
+    left: 10px;
+  }
+
+  .services__card p {
+    position: absolute;
+    top: 369px;
+    left: 10px;
+  }
+
+  .services__card button {
+    left: 10px;
+  }
+
+  .services__card .github__link {
+    left: 130px;
+  }
+}
