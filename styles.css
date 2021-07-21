@@ -506,6 +506,7 @@ a {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin-top: 30rem;
 }
 
 .skills__container {
@@ -586,7 +587,13 @@ a {
 
 @media screen and (max-width: 960px) {
   .skills {
-    height: 1600px;
+    height: 100vh;
+    /* margin-top: 40rem; */
+  }
+
+  .services {
+    height: 100vh;
+    /* margin-top: 60rem; */
   }
 
   .skills h1 {
@@ -654,6 +661,7 @@ a {
   justify-content: center;
   align-items: center;
   height: 106vh;
+  margin-top: 30rem;
 }
 
 .services h1 {
@@ -976,8 +984,17 @@ a {
   }
 }
 
-@media screen and (max-width: 389px) {
+@media screen and (max-width: 480px) {
   .skills h1 {
     font-size: 2.6rem;
+  }
+
+  @media screen and (max-width: 389px) {
+    .skills h1 {
+      font-size: 2.6rem;
+    }
+    .skills {
+      margin-top: 23rem;
+    }
   }
 }
