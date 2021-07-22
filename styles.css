@@ -419,7 +419,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5rem 0;
+  padding: 10rem 0;
   margin-top: 2rem;
   margin-bottom: 2rem;
   /* height: 100vh; */
@@ -509,7 +509,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5rem 0;
+  padding: 10rem 0;
   margin-top: 2rem;
   margin-bottom: 2rem;
   /* height: 100vh;
@@ -672,7 +672,7 @@ a {
   margin-bottom: 2rem;
   /* height: 100vh; */
   /* margin-top: 60rem; */
-  padding: 5rem 0;
+  padding: 10rem 0;
 }
 
 .services h1 {
