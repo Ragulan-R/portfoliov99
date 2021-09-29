@@ -134,7 +134,18 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 99;
-    height: 90vh;
+    /* height: 30vh; */
+    font-size: 1.6rem;
+  }
+
+  /* test */
+  .navbar__links.active {
+    background: white;
+    top: 100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 99;
+    /* height: 30vh; */
     font-size: 1.6rem;
   }
 
@@ -594,16 +605,6 @@ a {
 }
 
 @media screen and (max-width: 960px) {
-  .skills {
-    /* height: 100vh; */
-    /* margin-top: 40rem; */
-  }
-
-  .services {
-    /* height: 100vh; */
-    /* margin-top: 60rem; */
-  }
-
   .skills h1 {
     font-size: 2rem;
     /* margin-top: 12rem; */
@@ -611,21 +612,6 @@ a {
 }
 
 @media screen and (max-width: 480px) {
-  .skills {
-    /* height: 100vh;
-    margin-top: 80rem; */
-  }
-
-  .services {
-    /* height: 100vh;
-    margin-top: 750px; */
-  }
-
-  .about {
-    /* height: 100vh;
-    margin-top: 20rem; */
-  }
-
   .skills h1 {
     font-size: 2.5rem;
   }
@@ -636,18 +622,6 @@ a {
 }
 
 @media screen and (max-width: 863px) {
-  .skills {
-    /* height: 100vh; */
-  }
-
-  .services {
-    /* height: 100vh; */
-  }
-
-  .services__container {
-    /* height: 100vh; */
-  }
-
   .skills__card {
     width: 200px;
   }
@@ -696,7 +670,9 @@ a {
 }
 
 .services__container {
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: auto auto;
   justify-content: center;
   flex-wrap: wrap;
   /* height: 100vh; */
@@ -720,9 +696,9 @@ a {
 }
 
 .services__card {
-  margin: 1rem;
+  margin: 2rem;
   height: 530px;
-  width: 400px;
+  width: 500px;
   border-radius: 4px;
   background-image: linear-gradient(
       to bottom,
@@ -823,13 +799,12 @@ a {
     font-size: 2rem;
     /* margin-top: 12rem; */
   }
+  .services__container {
+    grid-template-columns: auto;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  /* .services {
-    height: 1200px;
-  } */
-
   .services h1 {
     font-size: 2.5rem;
   }
@@ -838,8 +813,8 @@ a {
     width: 300px;
   }
 
-  footer {
-    /* margin-top: 66rem; */
+  .services__container {
+    grid-template-columns: auto;
   }
 }
 
@@ -851,7 +826,6 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin-top: 15rem; */
 }
 
 #footer__logo {
@@ -974,9 +948,6 @@ a {
     padding: 10px;
     width: 100%;
   }
-  /* .footer__container {
-    margin-top: 66rem;
-  } */
 }
 
 @media screen and (max-width: 863px) {
@@ -986,12 +957,6 @@ a {
 }
 
 @media screen and (max-width: 429px) {
-  .skills {
-    /* margin-top: 23rem; */
-  }
-  .services {
-    /* margin-top: 53rem; */
-  }
   .services h1 {
     font-size: 2.6rem;
   }
@@ -1005,9 +970,6 @@ a {
   @media screen and (max-width: 389px) {
     .skills h1 {
       font-size: 2.6rem;
-    }
-    .skills {
-      /* margin-top: 23rem; */
     }
   }
 }
